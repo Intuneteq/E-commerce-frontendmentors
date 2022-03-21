@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="css/commerce.css">
+    <link rel="stylesheet" href="css/modals.css">
+</head>
+<body>
+
+   <div id="bigGuy">
+       <div id="bigContainer">
+           <header>
+           <nav class="navbar">
+               <div id="logo" class="navs">
+                    <img src="images/logo.svg" alt="alt">
+                </div>
+            
+                <div class="nav1">
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="nav2">
+                    <img src="images/icon-cart.svg" alt="alt" id="cart">
+                    <img src="images/image-avatar.png" alt="alt" id="avatar">
+                </div>
+           </nav>
+           <br>
+           <hr>
+
+           <div class="modalContain">
+            
+            <div class="modalContainer" id="modalContainer1">
+                <div class="modal" id="modal1">
+                    <h4>Cart</h4>
+                    <hr>
+                    <div id="innerMessage">
+                        <p>Your cart is empty</p>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="modalContainer" id="modalContainer2">
+                <div class="modal" id="modal2">
+                    <h4>Cart</h4>
+                    <hr>
+
+                    <div id="innermessage2">
+                     <img src="images/image-product-1-thumbnail.jpg" alt="alt" id="preview">
+                     <span><u>Fall Limited Edition Sneakers<br>$125.00 x 3</u> <strong id="fig">$375.00</strong></span>
+                     <img src="images/icon-delete.svg" alt="alt">
+                    </div>
+
+                    <div class="checkout">
+                        <button id="checkout">
+                            <span>Checkout</span>
+                        </button>
+                       </div>
+               </div>
+
+            </div>
+
+           </div>
+
+
+        </header>
+
+        <div id="container">
+
+            <div id="container1">
+                <img src="images/image-product-1.jpg" alt="alt" id="product1">
+                <div id = "thumbnails">
+                    <button id="thumbsize1"><img src="images/image-product-1-thumbnail.jpg" alt="alt" class="thumbsize"></button>
+                    <button><img src="images/image-product-2-thumbnail.jpg" alt="alt" class="thumbsize"></button>
+                    <button><img src="images/image-product-3-thumbnail.jpg" alt="alt" class="thumbsize"></button>
+                    <button><img src="images/image-product-4-thumbnail.jpg" alt="alt" class="thumbsize"></button>
+                </div>
+
+            </div>
+
+            <div id="container2">
+                <h4>SNEAKER COMPANY</h4>
+                <h1>Fall Limited Edition<BR>Sneakers</h1>
+                    
+                    <p id="write">These low-profile sneakers are your perfect casual wear<br>companion. Featuring a durable rubber outter sole, they'll
+                    <br>withstand everything the weather can offer.</p>
+
+                    <p><strong>$125.00</strong> <span id="fifty">50%</span><br><span id="straight">$250.00</span></p>
+                
+                <div class="butn">
+                    <div class="cartNumber">
+                        <button><img src="images/icon-minus.svg" alt="alt"></button>
+                        <h6>3</h6>
+                        <button><img src="images/icon-plus.svg" alt="alt"></button>
+                    </div>
+
+                    <button id="addToCart">
+                        <img src="images/icon-cart.svg" alt="alt"> <span>Add to cart</span>
+                    </button>
+
+                </div>
+                    
+            </div>
+        </div>
+
+        <div class="modalContain1">
+            <div class="modal-container">
+                <div id="close">X</div>
+                <!-- <img src="images/icon-close.svg" alt="alt" id="close"> -->
+                <div class="big">
+                    <img src="images/icon-previous.svg" alt="alt" class="arrow" id="arrow1">
+                    <img src="images/image-product-1.jpg" alt="alt" id="prod1">
+                    <img src="images/icon-next.svg" alt="alt" class="arrow" id="arrow2">
+                </div>
+
+                <div class="thumbnail">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="alt" class="thumbsiz">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="alt" class="thumbsiz">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="alt" class="thumbsiz">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="alt" class="thumbsiz">
+                </div>
+            </div>
+        </div>
+        
+       </div>
+   </div>
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="commerce.js"></script>
+</body>
+</html>
